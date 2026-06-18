@@ -28,23 +28,6 @@ import {
 } from "lucide-react";
 
 // Icon mapping to prevent dynamic runtime lookups
-const iconMap: Record<string, React.ComponentType<any>> = {
-  Laptop,
-  BookOpen,
-  Users,
-  Award,
-  Sparkles,
-  Globe,
-  TrendingUp,
-  Compass,
-  DollarSign,
-  Briefcase,
-  Target,
-  Coffee,
-  GraduationCap,
-  Play,
-  Calendar,
-};
 import { journeyData } from '../lib/constants'
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "./ui/dialog";
 
